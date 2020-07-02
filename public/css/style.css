@@ -1,0 +1,357 @@
+@font-face {
+  font-family: "Layar Bahtera";
+  src: url("../doomsday3.ttf");
+}
+
+* {
+  font-family: "Layar Bahtera";
+  box-sizing: border-box;
+}
+
+.login {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+body {
+  padding: 20px;
+  position: relative;
+  min-width: 360px !important;
+  max-width: 700px !important;
+  margin: 0 auto !important;
+  /* box-shadow: 0 0 10px #bbb; */
+}
+
+.boxform {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 13px;
+  background: #ffffff;
+  /* box-shadow: 5px 5px 18px #f0f0f0, -5px -5px 18px #ffffff; */
+}
+
+.form-group {
+  margin-bottom: 1rem !important;
+}
+
+.boxtitle {
+  padding: 20px;
+
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.boxtitlepoint {
+  padding: 20px;
+
+  border-radius: 10px;
+}
+
+.boxtitlepoint2 {
+  padding: 10px;
+  /* background-color: #0099CB; */
+  border-radius: 10px;
+  color: white;
+}
+
+.boxtitlepoint3 {
+  border-radius: 10px 10px 0 0;
+  color: white;
+}
+
+.boxtitle span a {
+  color: white !important;
+}
+
+.boxtitle2 {
+  padding: 15px;
+  background-color: #669acc;
+  border-radius: 10px 10px 0 0;
+}
+
+.boxtitle3 {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.boxloginmgc {
+  padding: 20px;
+  background-color: #064495;
+  margin-bottom: 20px;
+  color: white !important;
+}
+
+.boxloginmvg {
+  padding: 20px;
+  background-color: #cb3298;
+  margin-bottom: 20px;
+  color: white !important;
+}
+
+.boxtitle3 h2,
+h5,
+h3 {
+  color: white !important;
+}
+
+.boxtitle3 h3,
+a {
+  color: #fdda21 !important;
+  font-size: 10px;
+}
+
+.boxtitle h2,
+h3,
+h5 {
+  color: #fdda21;
+}
+
+.boxtitlepoint h2,
+h3,
+h5 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+span {
+  color: #fdda21;
+}
+
+table {
+  border: 1px solid #f1f1f1;
+  padding: 5px !important;
+}
+
+.caption span a {
+  color: #fdda21 !important;
+}
+
+.tablekanan {
+  padding-left: 2rem !important;
+}
+
+img {
+  background-size: cover;
+  height: 70px;
+}
+
+.formp {
+  color: rgb(226, 226, 226);
+}
+
+.sizeform::-webkit-input-placeholder {
+  color: rgb(173, 173, 173) !important;
+}
+
+.sizeformselected {
+  color: rgb(226, 226, 226) !important;
+}
+
+.sizeformselecteds {
+  color: black !important;
+}
+
+.imgmgc {
+  height: 150px;
+}
+
+.path {
+  height: 100%;
+  margin: 0px;
+}
+
+.formlogin {
+  border-radius: 100px !important;
+}
+
+.margincustom {
+  margin-top: 14px !important;
+  margin-bottom: 10px !important;
+}
+
+.bgpromosi {
+  background-image: url(back.jpg);
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.font-link {
+  font-size: 10pt !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .margincustom {
+    margin-top: 14px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .form-group {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .section4 {
+    font-size: 14px !important;
+  }
+
+  .section6 {
+    font-size: 0.75rem !important;
+  }
+
+  .section7 {
+    font-size: 1.5rem !important;
+  }
+
+  .caption6 {
+    font-size: 1rem !important;
+  }
+
+  .caption4 {
+    font-size: 1rem !important;
+  }
+
+  .section3 {
+    font-size: 0.75rem !important;
+  }
+
+  .caption3 {
+    font-size: 1rem !important;
+  }
+
+  .path {
+    height: 100vw;
+    margin: 0px;
+  }
+
+  /* .leftcontent {
+        text-align: left;
+        margin-left: 1rem;
+        padding-left: 50px;
+    } */
+  .imgmgc {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imgpoint {
+    height: 40px;
+  }
+
+  .boxtitle,
+  .boxtitle2 {
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 10px;
+  }
+
+  .boxtitle3 h2,
+  h5,
+  h3 {
+    color: white !important;
+  }
+
+  .boxtitle3 h2 {
+    font-size: 15pt;
+  }
+
+  .boxtitle3 h5 {
+    font-size: 13pt;
+  }
+
+  .boxtitle3 h3,
+  a {
+    font-size: 14pt;
+    color: #fdda21;
+  }
+
+  .boxtitle h2 {
+    font-size: 15pt;
+    margin-bottom: 0px;
+    font-weight: bolder;
+  }
+
+  .boxpoint h5 {
+    font-size: 10pt;
+  }
+
+  .boxpoint p {
+    font-size: 6pt;
+  }
+
+  .boxtitlepoint h2 {
+    font-size: 15pt;
+    margin-bottom: 0px;
+    font-weight: bolder;
+  }
+
+  .boxtitle h3 {
+    font-size: 14pt;
+    margin-bottom: 0px;
+  }
+
+  .boxtitle h5 {
+    font-size: 13pt;
+    margin-bottom: 0px;
+  }
+
+  .h3 h2 {
+    font-size: 14pt;
+    margin-bottom: 0px;
+  }
+
+  .caption {
+    font-size: 10pt;
+  }
+
+  .caption span a {
+    color: #fdda21 !important;
+    margin-bottom: 0px;
+  }
+
+  img {
+    background-size: cover;
+    height: 50px;
+  }
+
+  .formh2 {
+    font-size: 14pt;
+  }
+
+  .formp {
+    font-size: 9pt;
+    color: rgb(173, 173, 173) !important;
+  }
+
+  .sizeform::-webkit-input-placeholder {
+    color: rgb(173, 173, 173) !important;
+    font-size: 10pt !important;
+  }
+
+  .sizeformselected {
+    color: rgb(226, 226, 226) !important;
+    font-size: 10pt !important;
+  }
+
+  .sizeformselecteds {
+    color: black !important;
+    font-size: 10pt !important;
+  }
+
+  .form-control {
+    font-size: 10pt !important;
+  }
+
+  .font-button {
+    font-size: 12pt !important;
+  }
+
+  .font-link {
+    font-size: 10pt !important;
+  }
+}
